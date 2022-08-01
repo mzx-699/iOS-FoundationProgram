@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7335A09C289784E800F704A5 /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7335A09B289784E800F704A5 /* Calculate.m */; };
+		7335A0A02897A86500F704A5 /* TransfromIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7335A09F2897A86500F704A5 /* TransfromIcon.m */; };
 		7343CC48288BE77700A0D043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC47288BE77700A0D043 /* main.m */; };
+		7343CC53288BEE7700A0D043 /* MyJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC52288BEE7700A0D043 /* MyJsonParser.m */; };
+		7343CC56288BEEAE00A0D043 /* ByteDancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC55288BEEAE00A0D043 /* ByteDancer.m */; };
+		7343CC59288D255B00A0D043 /* PropertyHomeWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC58288D255B00A0D043 /* PropertyHomeWork.m */; };
+		7343CC60288D2A7900A0D043 /* CommonSortUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC5F288D2A7900A0D043 /* CommonSortUtil.m */; };
+		7343CC67288E22D200A0D043 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC66288E22D200A0D043 /* TreeNode.m */; };
+		7343CC6A288E648200A0D043 /* Solution.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC69288E648200A0D043 /* Solution.m */; };
+		7343CC6D288E76BC00A0D043 /* ContainerSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC6C288E76BC00A0D043 /* ContainerSolution.m */; };
+		7343CC6F288E7D5A00A0D043 /* arrList.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC6E288E7AF600A0D043 /* arrList.plist */; };
+		7343CC71288E81F200A0D043 /* dict.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC70288E81BF00A0D043 /* dict.plist */; };
+		7343CC74288E83E300A0D043 /* BlockSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC73288E83E300A0D043 /* BlockSolution.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +35,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7335A09A289784E800F704A5 /* Calculate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
+		7335A09B289784E800F704A5 /* Calculate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculate.m; sourceTree = "<group>"; };
+		7335A09F2897A86500F704A5 /* TransfromIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransfromIcon.m; sourceTree = "<group>"; };
 		7343CC44288BE77700A0D043 /* FoundationProgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FoundationProgram; sourceTree = BUILT_PRODUCTS_DIR; };
 		7343CC47288BE77700A0D043 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7343CC51288BEE7700A0D043 /* MyJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyJsonParser.h; sourceTree = "<group>"; };
+		7343CC52288BEE7700A0D043 /* MyJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyJsonParser.m; sourceTree = "<group>"; };
+		7343CC54288BEEAE00A0D043 /* ByteDancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ByteDancer.h; sourceTree = "<group>"; };
+		7343CC55288BEEAE00A0D043 /* ByteDancer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ByteDancer.m; sourceTree = "<group>"; };
+		7343CC57288D255B00A0D043 /* PropertyHomeWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyHomeWork.h; sourceTree = "<group>"; };
+		7343CC58288D255B00A0D043 /* PropertyHomeWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyHomeWork.m; sourceTree = "<group>"; };
+		7343CC5E288D2A7900A0D043 /* CommonSortUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSortUtil.h; sourceTree = "<group>"; };
+		7343CC5F288D2A7900A0D043 /* CommonSortUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSortUtil.m; sourceTree = "<group>"; };
+		7343CC65288E22D200A0D043 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		7343CC66288E22D200A0D043 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		7343CC68288E648200A0D043 /* Solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution.h; sourceTree = "<group>"; };
+		7343CC69288E648200A0D043 /* Solution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution.m; sourceTree = "<group>"; };
+		7343CC6B288E76BB00A0D043 /* ContainerSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerSolution.h; sourceTree = "<group>"; };
+		7343CC6C288E76BC00A0D043 /* ContainerSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerSolution.m; sourceTree = "<group>"; };
+		7343CC6E288E7AF600A0D043 /* arrList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arrList.plist; sourceTree = "<group>"; };
+		7343CC70288E81BF00A0D043 /* dict.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dict.plist; sourceTree = "<group>"; };
+		7343CC72288E83E300A0D043 /* BlockSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockSolution.h; sourceTree = "<group>"; };
+		7343CC73288E83E300A0D043 /* BlockSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockSolution.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7335A09E2897A83400F704A5 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				7335A09F2897A86500F704A5 /* TransfromIcon.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
 		7343CC3B288BE77700A0D043 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +98,70 @@
 		7343CC46288BE77700A0D043 /* FoundationProgram */ = {
 			isa = PBXGroup;
 			children = (
+				7335A09E2897A83400F704A5 /* tools */,
+				7343CC64288E22B900A0D043 /* binaryTree */,
+				7343CC5D288D2A5000A0D043 /* blockAndContainer */,
+				7343CC5C288D2A3900A0D043 /* sort */,
+				7343CC5B288D259100A0D043 /* property */,
+				7343CC5A288D256300A0D043 /* parser */,
 				7343CC47288BE77700A0D043 /* main.m */,
 			);
 			path = FoundationProgram;
+			sourceTree = "<group>";
+		};
+		7343CC5A288D256300A0D043 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				7343CC51288BEE7700A0D043 /* MyJsonParser.h */,
+				7343CC54288BEEAE00A0D043 /* ByteDancer.h */,
+				7343CC55288BEEAE00A0D043 /* ByteDancer.m */,
+				7343CC52288BEE7700A0D043 /* MyJsonParser.m */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		7343CC5B288D259100A0D043 /* property */ = {
+			isa = PBXGroup;
+			children = (
+				7343CC57288D255B00A0D043 /* PropertyHomeWork.h */,
+				7343CC58288D255B00A0D043 /* PropertyHomeWork.m */,
+			);
+			path = property;
+			sourceTree = "<group>";
+		};
+		7343CC5C288D2A3900A0D043 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				7343CC5E288D2A7900A0D043 /* CommonSortUtil.h */,
+				7343CC5F288D2A7900A0D043 /* CommonSortUtil.m */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
+		7343CC5D288D2A5000A0D043 /* blockAndContainer */ = {
+			isa = PBXGroup;
+			children = (
+				7343CC6B288E76BB00A0D043 /* ContainerSolution.h */,
+				7343CC6C288E76BC00A0D043 /* ContainerSolution.m */,
+				7343CC70288E81BF00A0D043 /* dict.plist */,
+				7343CC6E288E7AF600A0D043 /* arrList.plist */,
+				7343CC72288E83E300A0D043 /* BlockSolution.h */,
+				7343CC73288E83E300A0D043 /* BlockSolution.m */,
+				7335A09A289784E800F704A5 /* Calculate.h */,
+				7335A09B289784E800F704A5 /* Calculate.m */,
+			);
+			path = blockAndContainer;
+			sourceTree = "<group>";
+		};
+		7343CC64288E22B900A0D043 /* binaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				7343CC65288E22D200A0D043 /* TreeNode.h */,
+				7343CC66288E22D200A0D043 /* TreeNode.m */,
+				7343CC68288E648200A0D043 /* Solution.h */,
+				7343CC69288E648200A0D043 /* Solution.m */,
+			);
+			path = binaryTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +221,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7343CC71288E81F200A0D043 /* dict.plist in Sources */,
+				7343CC6F288E7D5A00A0D043 /* arrList.plist in Sources */,
+				7343CC60288D2A7900A0D043 /* CommonSortUtil.m in Sources */,
+				7335A0A02897A86500F704A5 /* TransfromIcon.m in Sources */,
+				7343CC56288BEEAE00A0D043 /* ByteDancer.m in Sources */,
+				7335A09C289784E800F704A5 /* Calculate.m in Sources */,
+				7343CC6D288E76BC00A0D043 /* ContainerSolution.m in Sources */,
+				7343CC53288BEE7700A0D043 /* MyJsonParser.m in Sources */,
+				7343CC74288E83E300A0D043 /* BlockSolution.m in Sources */,
+				7343CC59288D255B00A0D043 /* PropertyHomeWork.m in Sources */,
 				7343CC48288BE77700A0D043 /* main.m in Sources */,
+				7343CC6A288E648200A0D043 /* Solution.m in Sources */,
+				7343CC67288E22D200A0D043 /* TreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
