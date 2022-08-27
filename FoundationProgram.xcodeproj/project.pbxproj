@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73087C6F28B71A1300E9A16D /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 73087C6E28B71A1300E9A16D /* Father.m */; };
+		73087C7228B71A2200E9A16D /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 73087C7128B71A2200E9A16D /* Son.m */; };
 		7335A09C289784E800F704A5 /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7335A09B289784E800F704A5 /* Calculate.m */; };
 		7335A0A02897A86500F704A5 /* TransfromIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7335A09F2897A86500F704A5 /* TransfromIcon.m */; };
 		7343CC48288BE77700A0D043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343CC47288BE77700A0D043 /* main.m */; };
@@ -35,6 +37,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		73087C6D28B71A1300E9A16D /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		73087C6E28B71A1300E9A16D /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		73087C7028B71A2200E9A16D /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		73087C7128B71A2200E9A16D /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 		7335A09A289784E800F704A5 /* Calculate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
 		7335A09B289784E800F704A5 /* Calculate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculate.m; sourceTree = "<group>"; };
 		7335A09F2897A86500F704A5 /* TransfromIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransfromIcon.m; sourceTree = "<group>"; };
@@ -71,6 +77,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73087C6C28B719F600E9A16D /* fatherAndSon */ = {
+			isa = PBXGroup;
+			children = (
+				73087C6D28B71A1300E9A16D /* Father.h */,
+				73087C6E28B71A1300E9A16D /* Father.m */,
+				73087C7028B71A2200E9A16D /* Son.h */,
+				73087C7128B71A2200E9A16D /* Son.m */,
+			);
+			path = fatherAndSon;
+			sourceTree = "<group>";
+		};
 		7335A09E2897A83400F704A5 /* tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +115,7 @@
 		7343CC46288BE77700A0D043 /* FoundationProgram */ = {
 			isa = PBXGroup;
 			children = (
+				73087C6C28B719F600E9A16D /* fatherAndSon */,
 				7335A09E2897A83400F704A5 /* tools */,
 				7343CC64288E22B900A0D043 /* binaryTree */,
 				7343CC5D288D2A5000A0D043 /* blockAndContainer */,
@@ -227,6 +245,7 @@
 				7335A0A02897A86500F704A5 /* TransfromIcon.m in Sources */,
 				7343CC56288BEEAE00A0D043 /* ByteDancer.m in Sources */,
 				7335A09C289784E800F704A5 /* Calculate.m in Sources */,
+				73087C7228B71A2200E9A16D /* Son.m in Sources */,
 				7343CC6D288E76BC00A0D043 /* ContainerSolution.m in Sources */,
 				7343CC53288BEE7700A0D043 /* MyJsonParser.m in Sources */,
 				7343CC74288E83E300A0D043 /* BlockSolution.m in Sources */,
@@ -234,6 +253,7 @@
 				7343CC48288BE77700A0D043 /* main.m in Sources */,
 				7343CC6A288E648200A0D043 /* Solution.m in Sources */,
 				7343CC67288E22D200A0D043 /* TreeNode.m in Sources */,
+				73087C6F28B71A1300E9A16D /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

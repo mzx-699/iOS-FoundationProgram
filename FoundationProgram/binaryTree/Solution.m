@@ -21,7 +21,7 @@
 /// @param inLeft 中序左下标
 /// @param inRight 中序右下标
 + (TreeNode *)doCreateBinaryTreeByPreorder:(NSMutableArray *)preorder andInorde:(NSMutableArray *)inorder withPreLeft:(NSInteger)preLeft andPreRight:(NSInteger)preRight andInLeft:(NSInteger)inLeft andInRight:(NSInteger)inRight {
-    if (preLeft >= preorder.count) return NULL;
+    if (preLeft >= preorder.count) return nil;
     NSInteger rootIdx = preLeft;
     NSInteger rootVal = [preorder[rootIdx] integerValue];
     TreeNode *root = [[TreeNode alloc] initWithVal:rootVal];

@@ -6,7 +6,7 @@
 //
 
 #import "CommonSortUtil.h"
-
+// NSMutableArray指定其中类型 NSMutableArray<NSNumber>
 @implementation CommonSortUtil
 
 /// 堆排序
